@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <title>Snowy Cream - Raffle</title>
+</head>
+<body>
+    <div class="layout">
+        <header>
+            <div class="navbar">
+                <img class="logo" src="../assets/logo.png" alt="logo">
+                <nav>
+                    <ul class="containerlist">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./aboutus.html">AboutUS</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./information.html">More Information</a></li>
+                        <li><a href="./benefitstips.html">Benefits and Tips</a></li>
+                        <li><a href="#">Raffle</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="titles">
+                <h1>Raffle</h1>
+                <h2>You can collaborate to hold an <br> 
+                    exhibition event and participate in <br>
+                    a raffle to win an easel</h2>
+            </div>
+            <div class="containerraffle">
+                <div class="containermap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9614.24243481431!2d-118.35397196960805!3d34.136596274268456!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2be4f253238cf%3A0xd3dd5027799c9a71!2sLos%20Estudios%20Universal%20Hollywood!5e0!3m2!1ses!2sco!4v1718845624881!5m2!1ses!2sco" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="containerforms">
+                    <form action="./show_data.html" method="get">
+                        <fieldset>
+                            <label for="name">First Name</label>
+                        <br>
+                        <input type="text" id="name" name="Firstname">
+                        <br>
+                        <label for="lastname">Last Name</label>
+                        <br>
+                        <input type="text" id="lastname" name="lastname">
+                        <br>
+                        <label for="reunion">Choose Meet or zoom</label>
+                        <br>
+                        <select name="metodo-reunion" id="reunion">
+                            <option value="">--selecciona una opcion--</option>
+                            <option value="meet">Meet</option>
+                            <option value="zoom">Zoom</option>
+                        </select>
+                        <br>
+                        <label for="selectdate">Select Date</label>
+                        <br>
+                        <label for="date"></label>
+                        <input type="date" id="date" value="19-06-24" min="01-01-24" max="31-12-24" name="date"> 
+                        <br>
+                        <label for="metod">Payment Options</label>
+                        <br>
+                        <input type="radio" id="cash" value="cash" name="Payment">
+                        <label for="cash">Cash</label>
+                        <br>
+                        <input type="radio" id="credit" value="credit Card" name="Payment">
+                        <label for="credit">Credit Card</label>
+                        <br>
+                        <input type="radio" id="debid" value="debid Card" name="Payment">
+                        <label for="debid">Debit Card</label>
+                        <br>
+                        <label for="comment">Message (optional)</label>
+                        <br>
+                        <textarea name="comment" id="comment" rows="8"></textarea>
+                        <br>
+                        <input type="checkbox" id="checkbox" name="accept">
+                        <label for="checkbox">I accept terms and conditions</label>
+                        <input type="submit" value="Send">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer"><p>Creater By: Juan Pablo villa</p></div>
+        </footer>
+    </body>
+    </div> 
+</html>
